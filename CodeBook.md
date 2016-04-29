@@ -35,6 +35,7 @@ This file contains the mean measurements for 6 recorded activity types for 30 su
 * Subject (int)
 * Activity (factor)
   * 6 levels: "Laying", "Sitting", "Standing", "Walking", "Walking Downstairs", "Walking Upstairs"
+
 (The variables below contain the means of each activity listed in the *activity* variable for each subject)
 * tBodyAccMeanX (num)
 * tBodyAccMeanY (num)
