@@ -11,6 +11,6 @@ Information on the output data and transformation steps can be found under CodeB
 * Load R or R Studio and set the working directory to the location of the run_analysis.R script
 * In R type `source("./run_analysis.R")
 * `run_analysis()` will start the data download and create 2 files
-??????* SubjectActivityData.txt (): containing the subject and activity recorded means and standard deviations for both test and train data
-??????* SubjectActivityMeanData.txt (): containing the mean data for each recorded activity type for each subject
+  * SubjectActivityData.txt (): containing the subject and activity recorded means and standard deviations for both test and train data
+  * SubjectActivityMeanData.txt (): containing the mean data for each recorded activity type for each subject
 * To use the SubjectActivityMeanData in R, you can load by calling `resultMeans()` 
