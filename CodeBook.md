@@ -9,18 +9,18 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Transformational steps
 1. Download getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and save to './data/dataset.zip'
 2. Load into R;
-..* "dataset.zip/UCI HAR Dataset/features.txt"
-..* "dataset.zip/UCI HAR Dataset/activity_labels.txt"
-..* "dataset.zip/UCI HAR Dataset/test/subject_test.txt" (Subjects)
-..* "dataset.zip/UCI HAR Dataset/test/X_test.txt" (Data)
-..* "dataset.zip/UCI HAR Dataset/test/y_test.txt" (Labels)
-..* "dataset.zip/UCI HAR Dataset/train/subject_train.txt" (Subjects)
-..* "dataset.zip/UCI HAR Dataset/train/X_train.txt" (Data)
-..* "dataset.zip/UCI HAR Dataset/train/y_train.txt" (Labels)
+??????* "dataset.zip/UCI HAR Dataset/features.txt"
+??????* "dataset.zip/UCI HAR Dataset/activity_labels.txt"
+??????* "dataset.zip/UCI HAR Dataset/test/subject_test.txt" (Subjects)
+??????* "dataset.zip/UCI HAR Dataset/test/X_test.txt" (Data)
+??????* "dataset.zip/UCI HAR Dataset/test/y_test.txt" (Labels)
+??????* "dataset.zip/UCI HAR Dataset/train/subject_train.txt" (Subjects)
+??????* "dataset.zip/UCI HAR Dataset/train/X_train.txt" (Data)
+??????* "dataset.zip/UCI HAR Dataset/train/y_train.txt" (Labels)
 3. Merged test & train datasets
-..* "X_train.txt' + 'X_test.txt"
-..* "y_train.txt' + 'y_test.txt"
-..* "subject_train.txt" + "subject_test.txt"
+??????* "X_train.txt' + 'X_test.txt"
+??????* "y_train.txt' + 'y_test.txt"
+??????* "subject_train.txt" + "subject_test.txt"
 4. Identified the *mean* and *standard* deviation variables in "features.txt"
 5. Cleaned the merged data to contain just mean and standard deviation variables
 6. Assigned and cleaned up variable names from "features.txt" to the merged data 
@@ -34,7 +34,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 This file contains the mean measurements for 6 recorded activity types for 30 subjects.
 * Subject (int)
 * Activity (factor)
-..* 6 levels: "Laying", "Sitting", "Standing", "Walking", "Walking Downstairs", "Walking Upstairs"
+??????* 6 levels: "Laying", "Sitting", "Standing", "Walking", "Walking Downstairs", "Walking Upstairs"
 (The variables below contain the means of each activity listed in the *activity* variable for each subject)
 * tBodyAccMeanX (num)
 * tBodyAccMeanY (num)
